@@ -2,7 +2,7 @@
 [Download TravelFair APK Here](https://raw.githubusercontent.com/kschilweri/travelfair/main/app-release.apk)
 
 ## Purpose
-TravelFair is an Android application created as part of the D308 Mobile Application (Android) course in my Software Engineering degree. The app allows users to plan vacations by adding vacation details, including start and end dates, and any associated excursions. All data is stored locally on the device. The app is developed using Android Studio with Java as the backend.
+TravelFair is an Android application created as part of the D424 Capstone Project course in my Software Engineering degree. The app allows users to plan vacations by adding vacation details, including start and end dates, and any associated excursions. All data is stored locally on the device. The app is developed using Android Studio with Java as the backend.
 
 ---
 
