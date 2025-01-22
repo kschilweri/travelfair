@@ -7,11 +7,18 @@ TravelFair is an Android application created as part of the D308 Mobile Applicat
 
 ## Features & How to Operate
 
-### B.1. Main Vacation List
+### 1. Login Screen
+- A Login Screen appears when the app is launched.
+- Enter the following credentials to access the app:
+    - **Username**: test
+    - **Password**: test1234 
+
+### 2. Main Vacation List
 - Upon launching the app, enter the main vacation list screen by clicking the **red button** on the homepage.
 - Add a vacation by tapping the **floating button** on the bottom of the vacation list screen.
+- Use the **Search Bar** at the top of the vacation list screen to filter vacations by title. Typing a query will display only vacations starting with the query text.
 
-### B.2. Add Vacation Screen
+### 3. Add Vacation Screen
 - Fill in the following fields:
     - **Vacation Title**
     - **Hotel Name**
@@ -20,7 +27,7 @@ TravelFair is an Android application created as part of the D308 Mobile Applicat
 - Ensure the **end date is after the start date** (validation provided).
 - Save the vacation details to proceed.
 
-### B.3. Vacation Management
+### 4. Vacation Management
 - Add excursions to a saved vacation by navigating to the detailed vacation view.
 - Deleting a vacation requires prior deletion of its associated excursions.
 - Use the **Notify Vacation** option to set up notifications for:
@@ -29,13 +36,13 @@ TravelFair is an Android application created as part of the D308 Mobile Applicat
     - Notifications display the vacation title and whether it is starting or ending.
 - Use the **Share** option to open the Android share menu, allowing you to copy vacation details to the clipboard, or share via email, messages, and other sharing options.
 
-### B.4. Add Excursion
+### 5. Add Excursion
 - On the vacation details screen, tap the **floating button** at the bottom to navigate to the excursion add screen.
 - Enter:
     - **Excursion Title**
     - **Excursion Date** (must fall within the vacation dates).
 
-### B.5. Excursion Management
+### 6. Excursion Management
 - Excursions are directly associated with their parent vacation through a foreign key (`vacation_id`).
 - Adding an excursion outside the vacation dates will prompt a **toast notification** and prevent saving.
 - Delete an excursion via the **menu (three dots)** on the top-right corner of the screen.
@@ -57,9 +64,4 @@ TravelFair is an Android application created as part of the D308 Mobile Applicat
 
 ---
 
-## Git Repository
-The source code for this project can be found on GitHub: [TravelFair Repository](https://gitlab.com/wgu-gitlab-environment/student-repos/kchilw1/d308-mobile-application-development-android.git)  
-
-
----
 
